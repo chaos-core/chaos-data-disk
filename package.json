@@ -1,6 +1,6 @@
 {
   "name": "nix-data-disk",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Disk data source for Nix bots",
   "author": {
     "name": "Stephen A. Wilson",
@@ -24,7 +24,10 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "rx": "^4.1.0"
+    "rxjs": "^5.0.0",
+    "nix-core": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "rxjs": "^5.0.0"
+  }
 }
