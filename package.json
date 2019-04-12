@@ -1,7 +1,7 @@
 {
-  "name": "nix-data-disk",
+  "name": "chaos-data-disk",
   "version": "0.0.0",
-  "description": "Disk data source for Nix bots",
+  "description": "Disk data source for ChaosCore bots",
   "author": {
     "name": "Stephen A. Wilson",
     "email": "Stephen-356@hotmail.com",
@@ -17,14 +17,18 @@
     "bot",
     "discord.js",
     "framework",
-    "nix-core",
+    "chaos-core",
     "datasource"
   ],
-  "repository": "https://github.com/nix-core/nix-data-disk",
+  "repository": "https://github.com/chaos-core/chaos-data-disk",
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
     "rx": "^4.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "discord.js": "^11.4.2",
+    "rx": "^4.1.0",
+    "chaos-core": "https://github.com/chaos-core/chaos-core#v2.3.0"
+  }
 }
