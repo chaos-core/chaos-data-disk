@@ -22,13 +22,12 @@
   ],
   "repository": "https://github.com/chaos-core/chaos-data-disk",
   "license": "MIT",
-  "dependencies": {},
   "peerDependencies": {
-    "rx": "^4.1.0"
+    "rxjs": "^6.5.1"
   },
   "devDependencies": {
+    "chaos-core": "https://github.com/chaos-core/chaos-core#RxJS-6",
     "discord.js": "^11.4.2",
-    "rx": "^4.1.0",
-    "chaos-core": "https://github.com/chaos-core/chaos-core#v2.3.0"
+    "rxjs": "^6.5.1"
   }
 }
