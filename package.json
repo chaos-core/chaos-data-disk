@@ -10,7 +10,10 @@
   "files": [
     "lib"
   ],
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint .",
+    "lint-watch": "esw . -w"
+  },
   "main": "index.js",
   "keywords": [
     "discord",
@@ -28,6 +31,8 @@
   "devDependencies": {
     "chaos-core": "https://github.com/chaos-core/chaos-core#RxJS-6",
     "discord.js": "^11.4.2",
+    "eslint": "^5.16.0",
+    "eslint-watch": "^5.1.2",
     "rxjs": "^6.5.1"
   }
 }
