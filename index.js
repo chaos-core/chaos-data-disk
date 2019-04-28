@@ -1,1 +1,1 @@
-module.exports = require('./lib/nix-data-disk');
+module.exports = require('./lib/chaos-data-disk');

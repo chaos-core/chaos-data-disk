@@ -28,4 +28,5 @@ build/Release
 node_modules
 /config.js
 
-\.idea/workspace\.xml
+/.idea/workspace.xml
+/data/
