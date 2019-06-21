@@ -2,21 +2,18 @@ const assert = require('assert');
 const Path = require('path');
 const {from, of} = require('rxjs');
 const {flatMap, tap, toArray} = require('rxjs/operators');
+const { createChaosStub } = require('chaos-core').test;
 
 const ChaosDataDisk = require('./lib/chaos-data-disk');
 
-const chaos = {
-  logger: {
-    debug: (msg) => {console.debug("chaos-logger:", msg)}
+const chaos = createChaosStub({
+  dataSource: {
+    type: 'disk',
+    dataDir: Path.join(__dirname, 'data'),
   }
-};
+});
 
-const config = {
-  type: 'disk',
-  dataDir: Path.join(__dirname, 'data'),
-};
-
-const dataDisk = new ChaosDataDisk(chaos, config);
+const dataDisk = new ChaosDataDisk(chaos);
 
 function testSave(type, id, keyword, data) {
   return of('').pipe(
