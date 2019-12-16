@@ -1,6 +1,6 @@
 {
   "name": "chaos-data-disk",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Disk data source for ChaosCore bots",
   "author": {
     "name": "Stephen A. Wilson",
