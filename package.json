@@ -30,7 +30,7 @@
     "rxjs": "^6.5.1"
   },
   "devDependencies": {
-    "chaos-core": "https://github.com/chaos-core/chaos-core.git#v4.3.0-dev",
+    "chaos-core": "^4.3.0",
     "discord.js": "^11.4.2",
     "eslint": "^5.16.0",
     "eslint-watch": "^5.1.2",
