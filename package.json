@@ -1,6 +1,6 @@
 {
   "name": "chaos-data-disk",
-  "version": "4.3.0",
+  "version": "5.0.0",
   "description": "Disk data source for ChaosCore bots",
   "author": {
     "name": "Stephen A. Wilson",
@@ -25,15 +25,16 @@
   ],
   "repository": "https://github.com/chaos-core/chaos-data-disk",
   "license": "MIT",
-  "peerDependencies": {
-    "chaos-core": "^4.3.0",
+  "dependencies": {
     "rxjs": "^6.5.1"
   },
+  "peerDependencies": {
+    "chaos-core": "^5.0.0"
+  },
   "devDependencies": {
-    "chaos-core": "^4.3.0",
+    "chaos-core": "https://github.com/chaos-core/chaos-core.git#v5.0.0-dev",
     "discord.js": "^11.4.2",
     "eslint": "^5.16.0",
-    "eslint-watch": "^5.1.2",
-    "rxjs": "^6.5.1"
+    "eslint-watch": "^5.1.2"
   }
 }
